@@ -1,0 +1,32 @@
+
+.conversor {
+    background: black;
+    border: 1px solid blue;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    max-width: 200px;
+}
+
+.title {
+    font-size: large;
+    font-weight: 400;
+}
+
+.input {
+    width: 75px;
+}
+
+.butao {
+    background: red;
+    color: white;
+    width: 75px;
+    border: none;
+    padding: 4px;
+    margin-left: 5px;
+}
+
+.resultado {
+    font-size: large;
+    font-weight: 400;
+}

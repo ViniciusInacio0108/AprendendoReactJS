@@ -1,0 +1,8 @@
+.conteiner {
+  display: flex;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
+  align-self: center;
+  height: 50em;
+}
