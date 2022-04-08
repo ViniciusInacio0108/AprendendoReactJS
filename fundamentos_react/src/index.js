@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import './index.css'
-import './components/primeiro'
+import './components/basicos/primeiro'
 
-import Primeiro from "./components/primeiro";
-import ComParametro from "./components/ComParametro";
-import ComFilhos from './components/ComFilhos';
+import Primeiro from "./components/basicos/primeiro";
+import ComParametro from "./components/basicos/ComParametro";
+import ComFilhos from './components/basicos/ComFilhos';
 import Card from './components/layout/Card';
 
-import App from './App'
+import App from './App.jsx'
 
 ReactDOM.render(
     <App></App>,
