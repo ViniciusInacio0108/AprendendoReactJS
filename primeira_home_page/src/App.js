@@ -5,6 +5,8 @@ import './App.css';
 import Header from "./components/header/Header"
 // import da capa
 import Capa from "./components/Capa/Capa"
+//import do footer
+import Footer from "./components/footer/Footer"
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Header/>
 
       <Capa/>
+
+      <Footer></Footer>
 
 
     </div>

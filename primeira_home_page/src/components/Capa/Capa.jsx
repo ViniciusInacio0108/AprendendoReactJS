@@ -3,6 +3,7 @@ import React from "react";
 //import do css
 import "./Capa.css"
 
+
 export default (props) => {
 
     return(
@@ -18,13 +19,13 @@ export default (props) => {
                     Tudo que você precisa em um só lugar!
                 </p>
 
-                <button type='submit' placeholder="Saiba mais" className="Botao_saiba">
-
+                <button type='submit' className="Botao_saiba">
+                    Saiba mais
                 </button>
             </div>
             
             <div className="Lado_direito">
-                <img className="Mulher_capa" src="https://www.designi.com.br/images/preview/10002473.jpg" alt="Capa" />
+                <img src="https://www.designi.com.br/images/preview/10002473.jpg" alt="mulher" />
             </div>
 
         </div>
