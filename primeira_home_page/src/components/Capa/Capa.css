@@ -1,0 +1,45 @@
+.Capa {
+    background: #015958;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Lado_esquerdo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.Lado_direito {
+    width: 45%;
+    overflow: hidden;
+}
+
+.Titulo {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.Subtitulo {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.Botao_saiba {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 35px;
+    color: black;
+}
+
