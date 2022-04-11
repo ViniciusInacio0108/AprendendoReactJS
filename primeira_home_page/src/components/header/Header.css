@@ -7,19 +7,3 @@
     background: #0FC2C0;
     height: 65px;
 }
-
-.Logo {
-    width: 110px;
-}
-
-.Menu_Header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 40%;
-}
-
-.Links_Menu {
-    color: white;
-    text-decoration: none;
-}

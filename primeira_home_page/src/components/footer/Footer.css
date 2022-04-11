@@ -9,32 +9,3 @@
     align-items: center;
 }
 
-.Menus_footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 30%;
-}
-
-.Contatos {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 1em;
-    font-weight: bold;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.Endereco {
-    margin: 0;
-    padding: 0;
-}
-
-.Cnpj {
-    margin: 0;
-    padding: 0;
-}

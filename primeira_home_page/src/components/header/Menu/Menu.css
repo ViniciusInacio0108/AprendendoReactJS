@@ -1,0 +1,13 @@
+
+
+.Menu_Header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.Links_Menu {
+    color: white;
+    text-decoration: none;
+}
