@@ -1,0 +1,20 @@
+.Footer {
+    width: 317px;
+    height: 64px;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-Links {
+    color: #918E9B;
+}
+
+.Footer-Icons {
+    width: 25px;
+    height: 25px;
+    margin: 0px 15px;
+}

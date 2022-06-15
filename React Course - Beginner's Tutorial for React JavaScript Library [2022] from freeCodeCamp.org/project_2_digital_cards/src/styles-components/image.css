@@ -1,0 +1,9 @@
+.Image {
+    width: 317px;
+    height: 317px;
+
+    background-image: url(https://ead.pucpr.br/hs-fs/hubfs/qualidades-profissionais-2021.jpg?width=1280&name=qualidades-profissionais-2021.jpg);
+    background-position: right;
+
+    border-radius: 10px 10px 0px 0px;
+}

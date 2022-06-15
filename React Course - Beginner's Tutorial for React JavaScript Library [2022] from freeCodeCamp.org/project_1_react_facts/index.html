@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Fun Facts</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+</head>
+<body>
+    
+    <div id="root"></div>
+
+
+    <!-- ----- using the script here other than in a separeted file cause simply it does not link (later i´ll try to understand what´s happening) -->
+    <script type="text/babel">
+        function Header () {
+            return(
+                <header className="Header">
+                    <nav className="Nav-bar Container">
+                        <img className="Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"/>
+                        <ul className="Nav">
+                            <li className="Nav-item">
+                                React Course - Project 1
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            )
+        }
+
+        function Tittle() {
+            return <h1 className="Tittle Container">Fun facts about react</h1>
+        }
+
+        function MainContent() {
+            return(
+                <section>
+                    <ul className="List-about-react Container">
+                        <li className="List-about-react-items">Was first released in 2013</li>
+                        <li className="List-about-react-items">Was originally creates by Jordan Walke</li>
+                        <li className="List-about-react-items">has well over 100K stars in GitHub</li>
+                        <li className="List-about-react-items">Is mantained by Facebook</li>
+                        <li className="List-about-react-items">Powers thousand id enterprise apps, including mobile apps</li>
+                    </ul>
+                </section>
+            )
+        }
+
+        function Footer () {
+            return (
+                <footer className="Footer">
+                    <p>
+                        2021 Vinicius Developments. All rights reserved.    
+                    </p>    
+                </footer>
+            )
+        }
+
+        function App(){
+            return (
+                <div>
+                    <Header/>
+                    <Tittle/>
+                    <MainContent />
+                    <Footer />
+                </div>
+            )
+        }
+
+        ReactDOM.render(
+            <App/> , document.getElementById("root")
+        )
+
+    </script>
+
+</body>
+</html>

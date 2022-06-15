@@ -8,10 +8,18 @@ import Capa from "./components/Capa/Capa"
 //import do footer
 import Footer from "./components/footer/Footer"
 
+
+function HeaderAlternativa(){
+  return(
+    <p>Tudo bem?</p> 
+  )
+}
+
 function App() {
   return (
     <div className="App">
       
+      <HeaderAlternativa></HeaderAlternativa>
 
       <Header/>
 

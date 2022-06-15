@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.Container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0 1em 1em -1em rgba(255, 255, 255, .25);
+}
+
+.Logo {
+    width: 100px;
+}
+
+.Nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nav {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Nav-item {
+    color: rgba(97, 219, 251, 1);
+    text-decoration: none;
+    list-style: none;
+    font-size: bold;
+    font-size: 2rem;
+}
+
+.Tittle {
+    margin-top: 25px;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.List-about-react{
+    margin-top: 30px;
+}
+
+.List-about-react-items {
+    font-size: 2rem;
+    list-style: disc;
+    margin-top: 15px;
+}
+
+.Footer {
+    background-color: rgba(97, 219, 251, 1);
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.Bg-Black{
+    background-color: black;
+}
