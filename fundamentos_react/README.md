@@ -5,7 +5,7 @@
 
 ## What have a made here?
 
-I made a counter using React
+I made a counter using React.
 
 ## What have i learned here?
 
