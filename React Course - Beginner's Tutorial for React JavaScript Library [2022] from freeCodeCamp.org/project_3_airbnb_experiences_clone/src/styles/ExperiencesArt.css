@@ -1,0 +1,40 @@
+/* ------------------------------ light poppins ----------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.Experiences-Art {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 400px;
+
+    padding-top: 25px;
+}
+
+.Image {
+    width: 396px;
+    height: 232px;
+
+    align-self: center;
+}
+
+.Online-Experiences {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Tittle {
+    color: black;
+    font-size: 36px;
+    font-weight: 900;
+
+    padding: 0;
+    margin: 0;
+}
+
+.Text {
+    color: black;
+    font-size: 16px;
+    width: 320px;
+    height: 56px;
+    font-weight: 600;
+}

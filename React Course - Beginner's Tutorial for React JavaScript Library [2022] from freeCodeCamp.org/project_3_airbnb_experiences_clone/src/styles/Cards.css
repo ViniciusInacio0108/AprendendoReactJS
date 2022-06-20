@@ -1,0 +1,10 @@
+.Cards-Display {
+    display: flex;
+    flex-wrap: nowrap;
+
+    height: 350px;
+
+    align-items: center;
+
+    overflow: scroll;
+}

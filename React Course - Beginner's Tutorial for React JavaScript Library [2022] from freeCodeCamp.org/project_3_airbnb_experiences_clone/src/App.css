@@ -1,0 +1,8 @@
+.App {
+    width: 550px;
+    height: 853px;
+    background-color: white;
+
+    border: 1px solid red;
+    border-radius: 8.95px;
+}
