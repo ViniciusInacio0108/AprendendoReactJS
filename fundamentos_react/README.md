@@ -1,8 +1,7 @@
 # Notes
 
 1. This project is not in english because i did not started this repository in english.
-2. This is basically an
-3. app made by me seeing a course so i could understand some of the details in React.
+2. This is basically an app made by me seeing a course so i could understand some of the details in React.
 
 # What have a made here?
 
