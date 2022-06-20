@@ -6,7 +6,7 @@ This is an App create with ReactJS using simple and standard CDNs from ReactJS t
 
 ## Whats it does?
 
-Just a simple, static webpage application that shows you a personal digital card.
+Just a simple, static webpage application that shows you a list of cool facts about React.
 
 ## What is missing or peculiar to this App?
 
