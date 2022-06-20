@@ -3,11 +3,11 @@
 1. This project is not in english because i did not started this repository in english.
 2. This is basically an app made by me seeing a course so i could understand some of the details in React.
 
-# What have a made here?
+## What have a made here?
 
-## I made a counter using React
+I made a counter using React
 
-# What have i learned here?
+## What have i learned here?
 
 1. Controlled components.
 2. CallBack Functions.
