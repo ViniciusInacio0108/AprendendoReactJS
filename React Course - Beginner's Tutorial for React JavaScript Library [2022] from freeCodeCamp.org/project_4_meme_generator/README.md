@@ -6,7 +6,7 @@ This is a project based on a course for ReactJS on YT. Here we have a more advan
 
 ## Whats it does?
 
-This project is basically a meme generator test, where you can go and type 2 text one at the top and one at the bottom of a meme image and form a new meme. From the back all it does is use useEffect and Fetch to get data from an API only once at the load of the page and setAllMeme with useState containing and array with 100 memes. We also have a State to controll the meme url image src that will be shown to the client. We also get lots os functions, such as one to get a random number witch is gonna controll what index inside of our AllMeme array is selected controlling what Meme will be shown to the client. And easier functions to controle que State of the top and bottom texts where the client can input whatever it wants to nad the function will render it with setState.
+This project is basically a meme generator test, where you can go and type 2 texts, one at the top and one at the bottom of a meme image and create a new meme. From the back all it does is use useEffect and Fetch to get data from an API (only once at the load of the page) and setAllMeme with useState containing and array with 100 memes. We also have a State to controll the meme url image src that will be shown to the client. We also get lots os functions, such as one to get a random number witch is gonna controll what index inside of our AllMeme array is selected controlling what Meme will be shown to the client. And easier functions to controle que State of the top and bottom texts where the client can input whatever it wants to and the function will render it with setState.
 
 ## What is missing or peculiar to this App?
 
