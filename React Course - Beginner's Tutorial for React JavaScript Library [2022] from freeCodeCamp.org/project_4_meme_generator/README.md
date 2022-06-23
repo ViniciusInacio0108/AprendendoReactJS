@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+# About this Mini Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is it?
 
-## Available Scripts
+This is a project based on a course for ReactJS on YT. Here we have a more advanced project envolving new tools from React compared to the previous projects. In Project 4: Meme generator i have learned and practiced some of the best features in ReactJS: Hooks (useState and useEffect), componentization, dynamic Apps, fluid layouts, API requests, data manipulation and more.
 
-In the project directory, you can run:
+## Whats it does?
 
-### `npm start`
+This project is basically a meme generator test, where you can go and type 2 text one at the top and one at the bottom of a meme image and form a new meme. From the back all it does is use useEffect and Fetch to get data from an API only once at the load of the page and setAllMeme with useState containing and array with 100 memes. We also have a State to controll the meme url image src that will be shown to the client. We also get lots os functions, such as one to get a random number witch is gonna controll what index inside of our AllMeme array is selected controlling what Meme will be shown to the client. And easier functions to controle que State of the top and bottom texts where the client can input whatever it wants to nad the function will render it with setState.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What is missing or peculiar to this App?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. The visuals are not as much important as it needs to be, so will have some visual bugs. But the focus here is to use ReactJS tools.
